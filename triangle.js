@@ -1,5 +1,5 @@
 
- function findtriangletype() { //Function is described by name findtringle type and the parseInt() function parses a string and returns an integer
+ function findTriangleType() { //Function is described by name findtringle type and the parseInt() function parses a string and returns an integer
 
        var a = parseInt(document.triangleform.txt1.value);
        var b = parseInt(document.triangleform.txt2.value);

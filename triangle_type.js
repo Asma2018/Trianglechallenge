@@ -1,6 +1,6 @@
 
 
-function findtriangletype() {
+function findTriangleType() {
 
 var a = parseInt(document.triangleform.num1.value);
 var b = parseInt(document.triangleform.num2.value);
