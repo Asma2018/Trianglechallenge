@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <title>Triangle</title>
+   <meta name="viewport" content="width=device-width"/>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <script type="text/javascript" src="triangle.js"></script>
+   </head>
+   <body>
+       <header data-ts="TopBar">
+       </header>
+       <main data-ts="Main">
+           <div data-ts="MainContent" class="Maincontent">
+               <h1>Trianglechallenge </h1>
+           </div>
+       </main>
+
+   <div data-ts="MainContent" class="Maincontent">
+       <form data-ts="Form" id=triangleform name=triangleform onsubmit="return false">
+           <fieldset>
+           <legend>Find Triangle Type:</legend>
+               <label>
+                   <span>SideA:</span>
+                   <input type="text"  value="" id=txt1  name=txt1 placeholder="Enter the input for a.."pattern="[0-9]"  required/><br>
+               </label>
+
+               <label>
+                   <span>SideB:</span>
+                   <input type="text"  value="" id=txt2  name=txt2 placeholder="Enter the input for b.." pattern="[0-9]" required/><br>
+               </label>
+
+               <label>
+                   <span>SideC:</span>
+                   <input type="text"  value="" id=txt3 name=txt3  placeholder="Enter the input for c.." pattern="[0-9]" required/><br>
+               </label>
+           <input type="submit" value=Submit  onclick=findtriangletype()>
+
+           </fieldset>
+
+       </form>
+       <div id="results" class="results">
+	   </div>
+   </div>
+
+
+   
+
+   </body>
+</html>

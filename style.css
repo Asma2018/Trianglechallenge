@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+}
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+input[type=number] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+label {
+  padding: 12px 12px 12px 0;
+  
+}
+div {
+  border-radius: 5px;
+}
+input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.Maincontent{
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.results{
+  padding: 20px;
+  text-align: center;
+
+}
