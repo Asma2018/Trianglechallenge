@@ -12,7 +12,7 @@
 		<header data-ts="TopBar"></header>
 		<div data-ts="Panel" data-ts.label="Panel One">
 			<main data-ts="Main">
-				<div data-ts="MainContent" class="Maincontent">
+				<div data-ts="MainContent" class="main-content">
 				
 				<h1>Trianglechallenge </h1>
 				</div>
@@ -20,23 +20,23 @@
 		</div>
 		<div data-ts="Panel" data-ts.label="Panel Two">
 			<main data-ts="Main">
-				<div data-ts="MainContent" class="Maincontent">
-				<form data-ts="Form" id=triangleform name=triangleform>
+				<div data-ts="MainContent" class="main-content">
+				<form data-ts="Form" id="triangle-form" name="triangleform">
 		<fieldset>
 		<legend>Find Triangle Type:</legend>
 			<label>
 				<span>SideA:</span>
-				<input type="number"  value="" id=num1  name=num1 placeholder="Enter the input for a.." required/><br>
+				<input type="number"  value="" id="num1"  name="num1" placeholder="Enter the input for a.." required/><br>
 		</label>
 		<label>
 				<span>SideB:</span>
-				<input type="number"  value="" id=num2  name=num2 placeholder="Enter the input for b.."  required/><br>
+				<input type="number"  value="" id="num2"  name="num2" placeholder="Enter the input for b.."  required/><br>
 		</label>
 		<label>
 				<span>SideC:</span>
-				<input type="number"  value="" id=num3 name=num3  placeholder="Enter the input for c.."  required/><br>
+				<input type="number"  value="" id="num3" name="num3"  placeholder="Enter the input for c.."  required/><br>
 		</label>
-				<input type="submit" value=Submit  onclick=findtriangletype()>
+				<input type="submit" value="Submit"  onclick=findtriangletype()>
 		
 		
 	</fieldset>
@@ -45,10 +45,6 @@
 	</div>
 			</main>
 		</div>
-		<div data-ts="Panel" data-ts.label="Panel Three">
-			<main data-ts="Main">
-				<div data-ts="MainContent">…</div>
-			</main>
-		</div>
+	
 	</body>
 </html>
