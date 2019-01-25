@@ -10,8 +10,9 @@
       return;
        } else {
     if (a <= 0 || b <= 0 || c <= 0) {
-      alert('Please enter valid number.');
-      return INVALID;
+      //alert('Please enter valid number.');
+      document.getElementById('results').innerHTML = 'please enter valid number';
+      return;
     }
     
     else if (a == b && b ==c) {//check if a is equal to b and b is equal to c {Equalateral}
