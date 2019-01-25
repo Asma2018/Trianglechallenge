@@ -9,7 +9,12 @@
       //alert('Please enter Number only.');
       return;
        } else {
-    if (a == b && b ==c) {//check if a is equal to b and b is equal to c {Equalateral}
+    if (a <= 0 || b <= 0 || c <= 0) {
+      alert('Please enter valid number.');
+      return INVALID;
+    }
+    
+    else if (a == b && b ==c) {//check if a is equal to b and b is equal to c {Equalateral}
            document.getElementById('results').innerHTML = 'Triangle Type is Equalateral';
          //alert("Equalateral");
        } else if (a == b &&b !=c) {//check if A is equal to b but b is not equal to c{Isoceles}
