@@ -3,11 +3,11 @@ body {
   background-color: #f1f1f1;
 }
 input[type=text] {
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border-radius: 20px;
+  width: 50%;          /*width of input fields */
+  padding: 12px 20px; /*top and bottom padding are 12px right and left padding are 20px*/
+  margin: 8px 0;      /*Top and botton bottom margin 8px and right and left is 0*/
+  box-sizing: border-box;/* element padding and border are included in the width and height*/
+  border-radius: 20px;   /*give any element "rounded corners".*/
 }
 input[type=number] {
   width: 50%;
@@ -38,7 +38,7 @@ input[type=submit]:hover {
 }
 .main-content{
   background-color: #f1f1f1;
-  padding: 20px;
+  padding: 20px; /* top , bottom , right and left padding is 20px*/
   text-align: center;
 }
 
