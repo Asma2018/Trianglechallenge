@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+
+ <!--Fieldset is used to group related elememnts in form -->
+ <!DOCTYPE html>
 <html>
    <head>
    <title>Triangle</title>
@@ -16,10 +18,15 @@
        </main>
 
    <div data-ts="MainContent" class="main-content">
-       <form data-ts="Form" id="triangle-form" name="triangleform" onsubmit="return false">
-           <fieldset>
+        <!--Onsubmit="return false" on clicking on submit , pages automatically reloaded and data is loss
+        to stop default action of an element-->
+       <form data-ts="Form" id="triangle-form" name="triangleform" METHOD="GET" onsubmit="return false">
+           <!--Fieldset is used to group related elememnts in form -->
+        <fieldset> 
+              <!--legend is used to define a caption for fieldset -->
            <legend>Find Triangle Type:</legend>
-               <label>
+               <label>  
+                    <!--span- group inline elements -->
                    <span>SideA:</span>
                    <input type="text"  value="" id="txt1"  name="txt1" placeholder="Enter the input for a.."   required/><br>
                </label>
